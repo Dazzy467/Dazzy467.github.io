@@ -147,8 +147,8 @@ header{
 
 .content .avatar-container .avatar{
 
-    width: 150%;
-    height: 200%;
+    /* width: 150%;
+    height: 200%; */
     top:50%;
     left: 100%;
     transform: translate(-15%,-50%);
