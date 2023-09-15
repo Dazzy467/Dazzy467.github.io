@@ -152,3 +152,20 @@ header{
 
     transform: translate(-20%,-50%);
 }
+
+@media (max-width: 768px) {
+    .content .avatar-container
+    {
+        border-radius: 10px;
+        width: 500px;
+        height: 600px;
+        overflow: hidden;
+    }
+
+
+    .content .avatar-container .avatar {
+        width: 400%;
+        height: 200%;
+        transform: translate(-30%, -45%);
+    }
+}
